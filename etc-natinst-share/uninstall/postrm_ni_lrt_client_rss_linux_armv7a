@@ -1,0 +1,74 @@
+#!/bin/sh
+#
+
+# HACK! this change is required for the 2018 release of Systemlink
+# to work around an issue in nisid's umask setting that would create
+# new files to be world-writable.
+# Scheduled to be reverted in 2019 (CAR 694025)
+
+umask 0022
+
+niskyline_logdir=/var/local/natinst/log
+niskyline_logfile=niskyline_rt_client_runtime.log
+niskyline_package_names=" \
+   sysconfig-settings \
+
+   libpython3.5m1.0 \
+
+   python3-core \
+
+   python3-json \
+
+   ni-sysapi \
+
+   ni-sysapi-remote \
+
+   ni-sysapi-webservice \
+
+   ni-system-webserver \
+
+   ni-wif-landingpage \
+
+   ni-sysdetails-webservice \
+
+   ni-auth \
+
+   nissl \
+
+   ni-traceengine \
+
+   ni-ssl-webserver-support \
+
+   ni-webservices-webserver-support \
+
+   ni-ca-certs \
+
+   ni-webserver-libs \
+
+   ni-service-locator \
+
+   nicurl \
+
+   libnitargetcfg \
+
+   nirtcfg \
+
+   nirtmdnsd \
+
+   ni-webdav-system-webserver-support \
+
+   ni-auth-webservice \
+
+   ni-rt-exec-webservice \
+
+   ni-software-action-services \
+
+   ni-software-installation-websvc \
+
+   ni-avahi-client \
+
+   "
+
+opkg remove ${niskyline_package_names}
+
+rm -rf ${niskyline_logdir}/${niskyline_logfile}

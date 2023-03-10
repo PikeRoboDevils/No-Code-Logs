@@ -24,3 +24,6 @@ Contains logs from my laptop which was connected when the issue occurred 03/09/2
 
 `var-log` contains log files from /var/log captured while connected to the roborio when the issue occurred on 03/09/2023
 
+## etc-natinst-share
+
+contains files from /etc/natinst/share
