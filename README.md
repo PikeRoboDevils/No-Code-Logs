@@ -1,5 +1,12 @@
 # No-Code-Logs
 
+
+roboRIO 2.0
+Firmware Version	22.8.0f135
+Operating System	NI Linux Real-Time ARMv7-A 4.14.146-rt67
+Image Title	roboRIO2 Image
+Image Version	FRC_roboRIO2_2023_v3.1
+
 ## INMIS-Practice-Match
 
 This folder contains the DS log files from our first known occurence of this issue. The DS laptop successfully connected to the field and robot, yet code would not start. At approximately 10:12:16 
@@ -16,3 +23,4 @@ Contains logs from my laptop which was connected when the issue occurred 03/09/2
 ## var-log
 
 `var-log` contains log files from /var/log captured while connected to the roborio when the issue occurred on 03/09/2023
+
