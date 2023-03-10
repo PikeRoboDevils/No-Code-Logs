@@ -157,3 +157,40 @@ PID   USER     TIME   COMMAND
 lvuser@roborio-1018-FRC:~$ /usr/local/natinst/bin/nirtcfg  -g section=Startup,token=YouOnlyLiveTwice
 FALSE
 ```
+
+### `/usr/local/natinst/bin/nirtcfg -l`  
+
+```
+lvuser@roborio-1018-FRC:~$ /usr/local/natinst/bin/nirtcfg -l
+[systemsettings]PrimaryMAC=00802F33C793
+[systemsettings]host_name=roborio-1018-FRC
+[systemsettings]NoFPGAApp.enabled=False
+[systemsettings]ConsoleOut.enabled=True
+[systemsettings]NoApp.enabled=False
+[systemsettings]SafeMode.enabled=False
+[systemsettings]sshd.enabled=True
+[eth0]dhcpenabled=1
+[eth0]linklocalenabled=0
+[eth0]dhcpipaddr=10.10.18.2
+[eth0]ip_address=10.2.168.80
+[eth0]gateway=10.2.168.1
+[eth0]subnet_mask=255.255.255.0
+[usb0]dhcpenabled=1
+[usb0]linklocalenabled=1
+[usb0]dhcpipaddr=172.22.11.2
+[usb0]llipaddr=169.254.42.12
+[LVRT]RTTarget.RTProtocolAllowed=True
+[LVRT]ELVPingTimeout=5000
+[RtLinuxMemReserve]Base=24
+[RtLinuxMemReserve]IMAQdxUVCCameraSupport=8
+[SupportedWirelessSecurityTypes]WPA_PSK=true
+[SupportedWirelessSecurityTypes]WPA_EAP=true
+[SupportedWirelessSecurityTypes]WEP=true
+[SupportedWirelessSecurityTypes]Open=true
+[SupportedWirelessSecurityTypes]WPA2_EAP=true
+[SupportedWirelessSecurityTypes]WPA2_PSK=true
+[Supported Locales]english=L1
+[EMBCAN]TransceiverGPIOPort1=20
+[EMBCAN]TransceiverGPIOBase=906
+[Startup]YouOnlyLiveTwice=FALSE
+```
