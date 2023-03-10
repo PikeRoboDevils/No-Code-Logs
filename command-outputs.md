@@ -195,7 +195,7 @@ lvuser@roborio-1018-FRC:~$ /usr/local/natinst/bin/nirtcfg -l
 [Startup]YouOnlyLiveTwice=FALSE
 ```
 
-### `lvuser@roborio-1018-FRC:~$ ls /var/run/`
+### `lvuser@roborio-1018-FRC:~$ ls -la /var/run/`
 
 ```
 lvuser@roborio-1018-FRC:~$ ls -la /var/run/
@@ -233,4 +233,52 @@ drwxr-xr-x    6 admin    administ       140 Dec 14 19:42 udev/
 -rw-r--r--    1 admin    administ         5 Mar  9 20:50 udhcpc.usb0.pid
 -rw-rw-r--    1 admin    administ      2688 Mar  9 20:50 utmp
 drwxr-xr-x    3 admin    administ        60 Dec 31  1969 vsftpd/
+```
+
+### `cat /etc/rc5.d/S98nilvrt`
+```
+lvuser@roborio-1018-FRC:~$ cat /etc/rc5.d/S98nilvrt
+#!/bin/sh
+# Copyright (c) 2013 National Instruments.
+# All rights reserved.
+
+PID_RUNLVRT=/var/run/runlvrt.pid
+PID_LVRT_WRAPPER=/var/run/lvrt_wrapper.pid
+
+case "$1" in
+  start)
+    [ -f $PID_RUNLVRT ] && exit 1
+    [ -f $PID_LVRT_WRAPPER ] && exit 1
+
+    touch $PID_RUNLVRT
+    chmod +r $PID_RUNLVRT
+
+    touch $PID_LVRT_WRAPPER
+    # we need user lvuser to write its PID
+    chown lvuser $PID_LVRT_WRAPPER
+    chmod +r $PID_LVRT_WRAPPER
+
+    # XXX Workaround allowing RT Debug String to function properly
+    CONSOLE_FILE=/dev/tty0
+    if /usr/local/natinst/bin/nirtcfg -g section=SYSTEMSETTINGS,token=ConsoleOut.enabled | grep -q -i 'true'; then
+      CONSOLE_FILE=/dev/console
+    fi
+
+    daemonize -v -o "$CONSOLE_FILE" -e "$CONSOLE_FILE" -p $PID_RUNLVRT /etc/init.d/lvrt-daemon
+    ;;
+
+  stop)
+    # kill saved PID for runlvrt process
+    if [[ -f "$PID_RUNLVRT" ]]; then
+      kill "`cat $PID_RUNLVRT`"
+      rm $PID_RUNLVRT
+    fi
+
+    # kill saved PID for lvrt_wrapper process
+    if [[ -f "$PID_LVRT_WRAPPER" ]]; then
+      kill "`cat $PID_LVRT_WRAPPER`"
+      rm $PID_LVRT_WRAPPER
+    fi
+    ;;
+esac
 ```
