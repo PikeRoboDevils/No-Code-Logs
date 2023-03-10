@@ -194,3 +194,43 @@ lvuser@roborio-1018-FRC:~$ /usr/local/natinst/bin/nirtcfg -l
 [EMBCAN]TransceiverGPIOBase=906
 [Startup]YouOnlyLiveTwice=FALSE
 ```
+
+### `lvuser@roborio-1018-FRC:~$ ls /var/run/`
+
+```
+lvuser@roborio-1018-FRC:~$ ls -la /var/run/
+total 48
+drwxr-xr-x   14 admin    administ       660 Mar  9 20:50 ./
+drwxr-xr-x   21 admin    administ      4096 Dec 31  1969 ../
+-rw-r--r--    1 lvuser   administ         5 Dec 14 19:42 FRCNetComm.pid
+-rw-------    1 admin    administ         0 Dec 14 19:42 agetty.reload
+drwxr-xr-x    2 avahi    avahi           80 Dec 14 19:42 avahi-daemon/
+drwxr-xr-x    2 admin    administ        60 Dec 31  1969 blkid/
+----------    1 admin    administ         0 Dec 14 19:42 cron.reboot
+-rw-r--r--    1 admin    administ         5 Dec 14 19:42 crond.pid
+drwxr-xr-x    2 messageb messageb        80 Dec 14 19:42 dbus/
+-rw-r--r--    1 admin    administ         4 Dec 14 19:42 ifplugd.eth0.pid
+-rw-r--r--    1 admin    administ         4 Dec 14 19:42 ifplugd.usb0.pid
+-rw-r--r--    1 admin    administ         6 Dec 14 19:42 ifstate
+lrwxrwxrwx    1 admin    administ        16 Dec 31  1969 ld.so.cache -> /etc/ld.so.cache
+drwxr-xr-x    3 admin    administ        60 Dec 14 19:42 lldpd/
+-rw-r--r--    1 admin    administ         5 Dec 14 19:42 lldpd.pid
+srwxrwx---    1 lldpd    lldpd            0 Dec 14 19:42 lldpd.socket=
+drwxrwxrwt    3 admin    administ       140 Mar  9 20:58 lock/
+-rw-r--r--    1 lvuser   administ         0 Dec 14 19:42 lvrt_wrapper.pid
+drwxr-xr-x    2 admin    administ        40 Dec 31  1969 mount/
+drwxrwxr-x    3 lvuser   ni             120 Mar  9 20:58 natinst/
+srw-rw-rw-    1 admin    administ         0 Dec 14 19:42 nimdnsd=
+-rw-r--r--    1 admin    administ         0 Dec 31  1969 resolv.conf
+-rw-r--r--    1 admin    administ         5 Dec 14 19:42 runFRCNetComm.pid
+-rw-r--r--    1 admin    administ         0 Dec 14 19:42 runlvrt.pid
+drwxr-xr-x    2 admin    administ        40 Dec 31  1969 sepermit/
+drwxr-xr-x    2 admin    administ        40 Dec 31  1969 sshd/
+-rw-r--r--    1 admin    administ         5 Dec 14 19:42 sshd.pid
+drwxr-xr-x    2 admin    administ        80 Dec 14 19:42 syslog-ng/
+drwxr-xr-x    6 admin    administ       140 Dec 14 19:42 udev/
+-rw-r--r--    1 admin    administ         5 Dec 14 19:42 udhcpc.eth0.pid
+-rw-r--r--    1 admin    administ         5 Mar  9 20:50 udhcpc.usb0.pid
+-rw-rw-r--    1 admin    administ      2688 Mar  9 20:50 utmp
+drwxr-xr-x    3 admin    administ        60 Dec 31  1969 vsftpd/
+```
