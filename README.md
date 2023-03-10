@@ -15,4 +15,4 @@ Contains logs from my laptop which was connected when the issue occurred 03/09/2
 
 ## var-log
 
-`var-log` contains log files from /var/log
+`var-log` contains log files from /var/log captured while connected to the roborio when the issue occurred on 03/09/2023
