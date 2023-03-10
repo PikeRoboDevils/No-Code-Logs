@@ -1,0 +1,57 @@
+********** Robot program starting **********
+NT: Listening on NT3 port 1735, NT4 port 5810
+Warning at edu.wpi.first.wpilibj.DriverStation.reportJoystickUnpluggedWarning(DriverStation.java:1266): Joystick Button 3 on port 1 not available, check if controller is plugged in
+DataLog: Logging to '/home/lvuser/FRC_TBD_c931f8dbea77c833.wpilog'
+Build debug info:
+Manifest-Version: 1.0
+Main-Class: org.pikerobodevils.frc2023.Main
+Built-By: ryanz
+Build-Time-ISO-8601: 2023-03-05T13:50:21
+OS-Arch: amd64
+OS-Name: Windows 11
+OS-Version: 10.0
+JDK-Vendor: Eclipse Adoptium
+JDK-Version: 17.0.6
+Git-Hash: 3efd21c
+Git-Author: Ryan Blue
+Git-Description: Fix high cube auto and add floor pickup
+Git-Status: dirty
+Software Versions:
+Java: N/A 17.0.3.7-frc
+WPILib: 2023.4.2
+RevLib: 132579587
+********** Robot program startup complete **********
+Warning at edu.wpi.first.wpilibj.DriverStation.reportJoystickUnpluggedWarning(DriverStation.java:1266): Joystick Button 3 on port 1 not available, check if controller is plugged in
+Warning at edu.wpi.first.wpilibj.IterativeRobotBase.printLoopOverrunMessage(IterativeRobotBase.java:387): Loop time of 0.02s overrun
+
+Warning at edu.wpi.first.wpilibj.Tracer.lambda$printEpochs$0(Tracer.java:62): 	SmartDashboard.updateValues(): 0.000397s
+	disabledInit(): 0.000275s
+	robotPeriodic(): 0.020951s
+	LiveWindow.updateValues(): 0.000072s
+	Shuffleboard.update(): 0.060197s
+	disabledPeriodic(): 0.000390s
+
+Warning at edu.wpi.first.wpilibj.DriverStation.reportJoystickUnpluggedWarning(DriverStation.java:1266): Joystick Button 3 on port 1 not available, check if controller is plugged in
+Warning at edu.wpi.first.wpilibj.DriverStation.reportJoystickUnpluggedWarning(DriverStation.java:1266): Joystick Button 3 on port 1 not available, check if controller is plugged in
+Warning at edu.wpi.first.wpilibj.DriverStation.reportJoystickUnpluggedWarning(DriverStation.java:1266): Joystick axis 1 on port 1 not available, check if controller is plugged in
+Warning at edu.wpi.first.wpilibj.DriverStation.reportJoystickUnpluggedWarning(DriverStation.java:1266): Joystick Button 3 on port 1 not available, check if controller is plugged in
+Warning at edu.wpi.first.wpilibj.DriverStation.reportJoystickUnpluggedWarning(DriverStation.java:1266): Joystick POV 0 on port 1 not available, check if controller is plugged in
+Warning at edu.wpi.first.wpilibj.DriverStation.reportJoystickUnpluggedWarning(DriverStation.java:1266): Joystick Button 3 on port 1 not available, check if controller is plugged in
+Warning at edu.wpi.first.wpilibj.DriverStation.reportJoystickUnpluggedWarning(DriverStation.java:1266): Joystick POV 0 on port 1 not available, check if controller is plugged in
+Warning at edu.wpi.first.wpilibj.DriverStation.reportJoystickUnpluggedWarning(DriverStation.java:1266): Joystick Button 2 on port 1 not available, check if controller is plugged in
+Warning at edu.wpi.first.wpilibj.DriverStation.reportJoystickUnpluggedWarning(DriverStation.java:1266): Joystick POV 0 on port 1 not available, check if controller is plugged in
+Warning at edu.wpi.first.wpilibj.DriverStation.reportJoystickUnpluggedWarning(DriverStation.java:1266): Joystick Button 3 on port 1 not available, check if controller is plugged in
+Warning at edu.wpi.first.wpilibj.DriverStation.reportJoystickUnpluggedWarning(DriverStation.java:1266): Joystick Button 2 on port 1 not available, check if controller is plugged in
+Warning at edu.wpi.first.wpilibj.DriverStation.reportJoystickUnpluggedWarning(DriverStation.java:1266): Joystick Button 2 on port 1 not available, check if controller is plugged in
+Warning at edu.wpi.first.wpilibj.DriverStation.reportJoystickUnpluggedWarning(DriverStation.java:1266): Joystick Button 3 on port 1 not available, check if controller is plugged in
+Warning at edu.wpi.first.wpilibj.DriverStation.reportJoystickUnpluggedWarning(DriverStation.java:1266): Joystick Button 1 on port 1 not available, check if controller is plugged in
+Warning at edu.wpi.first.wpilibj.DriverStation.reportJoystickUnpluggedWarning(DriverStation.java:1266): Joystick Button 3 on port 1 not available, check if controller is plugged in
+Warning at edu.wpi.first.wpilibj.DriverStation.reportJoystickUnpluggedWarning(DriverStation.java:1266): Joystick Button 3 on port 1 not available, check if controller is plugged in
+DataLog: Renamed log file from 'FRC_TBD_c931f8dbea77c833.wpilog' to 'FRC_20230310_033059.wpilog'
+NT: Got a NT4 connection from 10.10.18.10 port 61310
+NT: Got a NT4 connection from 10.10.18.10 port 61311
+NT: CONNECTED NT4 client 'shuffleboard@1' (from 10.10.18.10:61310)
+NT: CONNECTED NT4 client 'shuffleboard@2' (from 10.10.18.10:61311)
+NT: DISCONNECTED NT4 client 'shuffleboard@2' (from 10.10.18.10:61311): stream error: ECONNRESET
+NT: NT4 socket error: socket is not connected
+NT: NT4 socket error: connection reset by peer
