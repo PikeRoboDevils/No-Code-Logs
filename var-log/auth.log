@@ -1,0 +1,27 @@
+2022-12-14T19:42:32.000-05:00 roborio-1018-FRC su[1200]: Successful su for webserv by admin
+2022-12-14T19:42:32.000-05:00 roborio-1018-FRC su[1200]: + /dev/tty0 admin:webserv
+2022-12-14T19:42:32.000-05:00 roborio-1018-FRC su[1200]: pam_unix(su:session): session opened for user webserv(uid=501) by (uid=0)
+2022-12-14T19:42:32.000-05:00 roborio-1018-FRC su[1200]: pam_unix(su:session): session closed for user webserv
+2022-12-14T19:42:35.000-05:00 roborio-1018-FRC su[1336]: Successful su for lvuser by admin
+2022-12-14T19:42:35.000-05:00 roborio-1018-FRC su[1336]: + ??? admin:lvuser
+2022-12-14T19:42:35.000-05:00 roborio-1018-FRC su[1336]: pam_unix(su:session): session opened for user lvuser(uid=500) by (uid=0)
+2023-03-09T20:50:50.000-05:00 roborio-1018-FRC sshd[1892]: rexec line 93: Deprecated option UsePrivilegeSeparation
+2023-03-09T20:50:59.000-05:00 roborio-1018-FRC sshd[1892]: pam_unix(sshd:auth): user [lvuser] has blank password; authenticated without it
+2023-03-09T20:50:59.000-05:00 roborio-1018-FRC sshd[1892]: Accepted none for lvuser from 172.22.11.1 port 47396 ssh2
+2023-03-09T20:50:59.000-05:00 roborio-1018-FRC sshd[1892]: pam_unix(sshd:session): session opened for user lvuser(uid=500) by (uid=0)
+2023-03-09T21:31:37.000-05:00 roborio-1018-FRC sshd[3263]: rexec line 93: Deprecated option UsePrivilegeSeparation
+2023-03-09T21:31:38.000-05:00 roborio-1018-FRC sshd[3263]: Invalid user ryanz from 172.22.11.1 port 46315
+2023-03-09T21:31:38.000-05:00 roborio-1018-FRC sshd[3263]: pam_unix(sshd:auth): check pass; user unknown
+2023-03-09T21:31:38.000-05:00 roborio-1018-FRC sshd[3263]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=172.22.11.1 
+2023-03-09T21:31:40.000-05:00 roborio-1018-FRC sshd[3263]: Failed none for invalid user ryanz from 172.22.11.1 port 46315 ssh2
+2023-03-09T21:31:42.000-05:00 roborio-1018-FRC sshd[3263]: fatal: userauth_finish: Connection reset by peer [preauth]
+2023-03-09T21:31:43.000-05:00 roborio-1018-FRC sshd[3266]: rexec line 93: Deprecated option UsePrivilegeSeparation
+2023-03-09T21:31:43.000-05:00 roborio-1018-FRC sshd[3266]: pam_unix(sshd:auth): user [lvuser] has blank password; authenticated without it
+2023-03-09T21:31:43.000-05:00 roborio-1018-FRC sshd[3266]: Accepted none for lvuser from 172.22.11.1 port 46316 ssh2
+2023-03-09T21:31:43.000-05:00 roborio-1018-FRC sshd[3266]: pam_unix(sshd:session): session opened for user lvuser(uid=500) by (uid=0)
+2023-03-09T21:32:02.000-05:00 roborio-1018-FRC sshd[3268]: Received disconnect from 172.22.11.1 port 46316:11: disconnected by user
+2023-03-09T21:32:02.000-05:00 roborio-1018-FRC sshd[3268]: Disconnected from user lvuser 172.22.11.1 port 46316
+2023-03-09T21:32:02.000-05:00 roborio-1018-FRC sshd[3266]: pam_unix(sshd:session): session closed for user lvuser
+2023-03-09T21:32:07.000-05:00 roborio-1018-FRC sshd[3277]: rexec line 93: Deprecated option UsePrivilegeSeparation
+2023-03-09T21:32:07.000-05:00 roborio-1018-FRC sshd[3277]: Accepted none for admin from 172.22.11.1 port 55887 ssh2
+2023-03-09T21:32:07.000-05:00 roborio-1018-FRC sshd[3277]: pam_unix(sshd:session): session opened for user admin(uid=0) by (uid=0)

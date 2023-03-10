@@ -1,0 +1,222 @@
+2022-12-14T19:42:31.745-05:00 roborio-1018-FRC kernel: [    0.000000] Booting Linux on physical CPU 0x0
+2022-12-14T19:42:31.745-05:00 roborio-1018-FRC kernel: [    0.000000] Linux version 4.14.146-rt67 (oe-user@oe-host) (gcc version 12.1.0 (GCC)) #1 SMP PREEMPT RT Wed Oct 12 06:36:17 UTC 2022
+2022-12-14T19:42:31.745-05:00 roborio-1018-FRC kernel: [    0.000000] CPU: ARMv7 Processor [413fc090] revision 0 (ARMv7), cr=18c5387d
+2022-12-14T19:42:31.745-05:00 roborio-1018-FRC kernel: [    0.000000] CPU: PIPT / VIPT nonaliasing data cache, VIPT aliasing instruction cache
+2022-12-14T19:42:31.745-05:00 roborio-1018-FRC kernel: [    0.000000] OF: fdt: Machine model: NI roboRIO 2.0
+2022-12-14T19:42:31.745-05:00 roborio-1018-FRC kernel: [    0.000000] Memory policy: Data cache writealloc
+2022-12-14T19:42:31.745-05:00 roborio-1018-FRC kernel: [    0.000000] On node 0 totalpages: 131072
+2022-12-14T19:42:31.745-05:00 roborio-1018-FRC kernel: [    0.000000] free_area_init_node: node 0, pgdat c0a6c3c0, node_mem_map dfbf8000
+2022-12-14T19:42:31.745-05:00 roborio-1018-FRC kernel: [    0.000000]   Normal zone: 1024 pages used for memmap
+2022-12-14T19:42:31.746-05:00 roborio-1018-FRC kernel: [    0.000000]   Normal zone: 0 pages reserved
+2022-12-14T19:42:31.746-05:00 roborio-1018-FRC kernel: [    0.000000]   Normal zone: 131072 pages, LIFO batch:31
+2022-12-14T19:42:31.746-05:00 roborio-1018-FRC kernel: [    0.000000] percpu: Embedded 17 pages/cpu s38304 r8192 d23136 u69632
+2022-12-14T19:42:31.746-05:00 roborio-1018-FRC kernel: [    0.000000] pcpu-alloc: s38304 r8192 d23136 u69632 alloc=17*4096
+2022-12-14T19:42:31.746-05:00 roborio-1018-FRC kernel: [    0.000000] pcpu-alloc: [0] 0 [0] 1 
+2022-12-14T19:42:31.746-05:00 roborio-1018-FRC kernel: [    0.000000] Built 1 zonelists, mobility grouping on.  Total pages: 130048
+2022-12-14T19:42:31.746-05:00 roborio-1018-FRC kernel: [    0.000000] Kernel command line: console= quiet root=/dev/mmcblk0p3 rw g_ether.idVendor=0x3923 g_ether.idProduct=0x762F g_ether.iProduct="NI roboRIO 2.0 [roborio-1018-FRC]" g_ether.iSerialNumber=0323800C g_ether.dev_addr=00:80:2f:33:c7:93 g_ether.bcdDevice=0x7AAE rcu_nocbs=all rootdelay=1
+2022-12-14T19:42:31.746-05:00 roborio-1018-FRC kernel: [    0.000000] PID hash table entries: 2048 (order: 1, 8192 bytes)
+2022-12-14T19:42:31.746-05:00 roborio-1018-FRC kernel: [    0.000000] Dentry cache hash table entries: 65536 (order: 7, 524288 bytes)
+2022-12-14T19:42:31.746-05:00 roborio-1018-FRC kernel: [    0.000000] Inode-cache hash table entries: 32768 (order: 5, 131072 bytes)
+2022-12-14T19:42:31.746-05:00 roborio-1018-FRC kernel: [    0.000000] Memory: 508912K/524288K available (6144K kernel code, 503K rwdata, 1664K rodata, 1024K init, 173K bss, 15376K reserved, 0K cma-reserved, 0K highmem)
+2022-12-14T19:42:31.746-05:00 roborio-1018-FRC kernel: [    0.000000] Virtual kernel memory layout:
+2022-12-14T19:42:31.746-05:00 roborio-1018-FRC kernel: [    0.000000]     vector  : 0xffff0000 - 0xffff1000   (   4 kB)
+2022-12-14T19:42:31.746-05:00 roborio-1018-FRC kernel: [    0.000000]     fixmap  : 0xffc00000 - 0xfff00000   (3072 kB)
+2022-12-14T19:42:31.746-05:00 roborio-1018-FRC kernel: [    0.000000]     vmalloc : 0xe0800000 - 0xff800000   ( 496 MB)
+2022-12-14T19:42:31.746-05:00 roborio-1018-FRC kernel: [    0.000000]     lowmem  : 0xc0000000 - 0xe0000000   ( 512 MB)
+2022-12-14T19:42:31.746-05:00 roborio-1018-FRC kernel: [    0.000000]     pkmap   : 0xbfe00000 - 0xc0000000   (   2 MB)
+2022-12-14T19:42:31.746-05:00 roborio-1018-FRC kernel: [    0.000000]     modules : 0xbf000000 - 0xbfe00000   (  14 MB)
+2022-12-14T19:42:31.746-05:00 roborio-1018-FRC kernel: [    0.000000]       .text : 0xc0008000 - 0xc0700000   (7136 kB)
+2022-12-14T19:42:31.746-05:00 roborio-1018-FRC kernel: [    0.000000]       .init : 0xc0900000 - 0xc0a00000   (1024 kB)
+2022-12-14T19:42:31.749-05:00 roborio-1018-FRC kernel: [    0.000000]       .data : 0xc0a00000 - 0xc0a7debc   ( 504 kB)
+2022-12-14T19:42:31.749-05:00 roborio-1018-FRC kernel: [    0.000000]        .bss : 0xc0a7dec0 - 0xc0aa95d0   ( 174 kB)
+2022-12-14T19:42:31.749-05:00 roborio-1018-FRC kernel: [    0.000000] SLUB: HWalign=64, Order=0-3, MinObjects=0, CPUs=2, Nodes=1
+2022-12-14T19:42:31.749-05:00 roborio-1018-FRC kernel: [    0.000000] ftrace: allocating 22705 entries in 67 pages
+2022-12-14T19:42:31.749-05:00 roborio-1018-FRC kernel: [    0.000000] Preemptible hierarchical RCU implementation.
+2022-12-14T19:42:31.749-05:00 roborio-1018-FRC kernel: [    0.000000] 	RCU restricting CPUs from NR_CPUS=4 to nr_cpu_ids=2.
+2022-12-14T19:42:31.749-05:00 roborio-1018-FRC kernel: [    0.000000] 	RCU priority boosting: priority 1 delay 500 ms.
+2022-12-14T19:42:31.749-05:00 roborio-1018-FRC kernel: [    0.000000] 	No expedited grace period (rcu_normal_after_boot).
+2022-12-14T19:42:31.749-05:00 roborio-1018-FRC kernel: [    0.000000] 	Tasks RCU enabled.
+2022-12-14T19:42:31.749-05:00 roborio-1018-FRC kernel: [    0.000000] RCU: Adjusting geometry for rcu_fanout_leaf=16, nr_cpu_ids=2
+2022-12-14T19:42:31.749-05:00 roborio-1018-FRC kernel: [    0.000000] NR_IRQS: 16, nr_irqs: 16, preallocated irqs: 16
+2022-12-14T19:42:31.749-05:00 roborio-1018-FRC kernel: [    0.000000] slcr mapped to e0800000
+2022-12-14T19:42:31.749-05:00 roborio-1018-FRC kernel: [    0.000000] L2C-310 enabling early BRESP for Cortex-A9
+2022-12-14T19:42:31.749-05:00 roborio-1018-FRC kernel: [    0.000000] L2C-310 full line of zeros enabled for Cortex-A9
+2022-12-14T19:42:31.749-05:00 roborio-1018-FRC kernel: [    0.000000] L2C-310 ID prefetch enabled, offset 1 lines
+2022-12-14T19:42:31.749-05:00 roborio-1018-FRC kernel: [    0.000000] L2C-310 dynamic clock gating disabled, standby mode disabled
+2022-12-14T19:42:31.749-05:00 roborio-1018-FRC kernel: [    0.000000] L2C-310 cache controller enabled, 8 ways, 512 kB
+2022-12-14T19:42:31.749-05:00 roborio-1018-FRC kernel: [    0.000000] L2C-310: CACHE_ID 0x410000c8, AUX_CTRL 0x76460001
+2022-12-14T19:42:31.750-05:00 roborio-1018-FRC kernel: [    0.000000] 	Note: kernel parameter 'rcu_nocbs=' contains nonexistent CPUs.
+2022-12-14T19:42:31.750-05:00 roborio-1018-FRC kernel: [    0.000000] 	Offload RCU callbacks from CPUs: 0-1.
+2022-12-14T19:42:31.750-05:00 roborio-1018-FRC kernel: [    0.000000] zynq_clock_init: clkc starts at e0800100
+2022-12-14T19:42:31.750-05:00 roborio-1018-FRC kernel: [    0.000000] Zynq clock init
+2022-12-14T19:42:31.750-05:00 roborio-1018-FRC kernel: [    0.000008] sched_clock: 64 bits at 433MHz, resolution 2ns, wraps every 4398046511103ns
+2022-12-14T19:42:31.750-05:00 roborio-1018-FRC kernel: [    0.000019] clocksource: arm_global_timer: mask: 0xffffffffffffffff max_cycles: 0x63f09fe9cc, max_idle_ns: 440795221256 ns
+2022-12-14T19:42:31.750-05:00 roborio-1018-FRC kernel: [    0.000041] Switching to timer-based delay loop, resolution 2ns
+2022-12-14T19:42:31.750-05:00 roborio-1018-FRC kernel: [    0.000113] clocksource: ttc_clocksource: mask: 0xffff max_cycles: 0xffff, max_idle_ns: 413490550 ns
+2022-12-14T19:42:31.750-05:00 roborio-1018-FRC kernel: [    0.000139] timer #0 at e0808000, irq=43
+2022-12-14T19:42:31.751-05:00 roborio-1018-FRC kernel: [    0.000419] Console: colour dummy device 80x30
+2022-12-14T19:42:31.751-05:00 roborio-1018-FRC kernel: [    0.000448] Calibrating delay loop (skipped), value calculated using timer frequency.. 866.66 BogoMIPS (lpj=4333333)
+2022-12-14T19:42:31.751-05:00 roborio-1018-FRC kernel: [    0.000457] pid_max: default: 32768 minimum: 301
+2022-12-14T19:42:31.751-05:00 roborio-1018-FRC kernel: [    0.000540] Security Framework initialized
+2022-12-14T19:42:31.751-05:00 roborio-1018-FRC kernel: [    0.000575] Mount-cache hash table entries: 1024 (order: 0, 4096 bytes)
+2022-12-14T19:42:31.751-05:00 roborio-1018-FRC kernel: [    0.000582] Mountpoint-cache hash table entries: 1024 (order: 0, 4096 bytes)
+2022-12-14T19:42:31.751-05:00 roborio-1018-FRC kernel: [    0.001184] CPU: Testing write buffer coherency: ok
+2022-12-14T19:42:31.751-05:00 roborio-1018-FRC kernel: [    0.001210] CPU0: Spectre v2: using BPIALL workaround
+2022-12-14T19:42:31.751-05:00 roborio-1018-FRC kernel: [    0.001444] CPU0: thread -1, cpu 0, socket 0, mpidr 80000000
+2022-12-14T19:42:31.751-05:00 roborio-1018-FRC kernel: [    0.040288] Setting up static identity map for 0x100000 - 0x10003c
+2022-12-14T19:42:31.752-05:00 roborio-1018-FRC kernel: [    0.080223] Hierarchical SRCU implementation.
+2022-12-14T19:42:31.752-05:00 roborio-1018-FRC kernel: [    0.160223] smp: Bringing up secondary CPUs ...
+2022-12-14T19:42:31.752-05:00 roborio-1018-FRC kernel: [    0.260733] CPU1: thread -1, cpu 1, socket 0, mpidr 80000001
+2022-12-14T19:42:31.752-05:00 roborio-1018-FRC kernel: [    0.260738] CPU1: Spectre v2: using BPIALL workaround
+2022-12-14T19:42:31.752-05:00 roborio-1018-FRC kernel: [    0.260861] smp: Brought up 1 node, 2 CPUs
+2022-12-14T19:42:31.752-05:00 roborio-1018-FRC kernel: [    0.260873] SMP: Total of 2 processors activated (1733.33 BogoMIPS).
+2022-12-14T19:42:31.752-05:00 roborio-1018-FRC kernel: [    0.260879] CPU: All CPU(s) started in SVC mode.
+2022-12-14T19:42:31.752-05:00 roborio-1018-FRC kernel: [    0.261621] devtmpfs: initialized
+2022-12-14T19:42:31.752-05:00 roborio-1018-FRC kernel: [    0.270341] random: get_random_u32 called from bucket_table_alloc+0x180/0x22c with crng_init=0
+2022-12-14T19:42:31.752-05:00 roborio-1018-FRC kernel: [    0.270643] VFP support v0.3: implementor 41 architecture 3 part 30 variant 9 rev 4
+2022-12-14T19:42:31.752-05:00 roborio-1018-FRC kernel: [    0.270833] clocksource: jiffies: mask: 0xffffffff max_cycles: 0xffffffff, max_idle_ns: 19112604462750000 ns
+2022-12-14T19:42:31.752-05:00 roborio-1018-FRC kernel: [    0.270850] futex hash table entries: 512 (order: 3, 32768 bytes)
+2022-12-14T19:42:31.752-05:00 roborio-1018-FRC kernel: [    0.271085] pinctrl core: initialized pinctrl subsystem
+2022-12-14T19:42:31.752-05:00 roborio-1018-FRC kernel: [    0.272197] NET: Registered protocol family 16
+2022-12-14T19:42:31.752-05:00 roborio-1018-FRC kernel: [    0.273197] DMA: preallocated 256 KiB pool for atomic coherent allocations
+2022-12-14T19:42:31.752-05:00 roborio-1018-FRC kernel: [    0.281954] hw-breakpoint: found 5 (+1 reserved) breakpoint and 1 watchpoint registers.
+2022-12-14T19:42:31.752-05:00 roborio-1018-FRC kernel: [    0.281963] hw-breakpoint: maximum watchpoint size is 4 bytes.
+2022-12-14T19:42:31.752-05:00 roborio-1018-FRC kernel: [    0.282264] zynq-pinctrl 700.pinctrl: zynq pinctrl initialized
+2022-12-14T19:42:31.752-05:00 roborio-1018-FRC kernel: [    0.282453] Serial: AMBA PL011 UART driver
+2022-12-14T19:42:31.752-05:00 roborio-1018-FRC kernel: [    0.291923] SCSI subsystem initialized
+2022-12-14T19:42:31.754-05:00 roborio-1018-FRC kernel: [    0.292176] usbcore: registered new interface driver usbfs
+2022-12-14T19:42:31.754-05:00 roborio-1018-FRC kernel: [    0.292240] usbcore: registered new interface driver hub
+2022-12-14T19:42:31.754-05:00 roborio-1018-FRC kernel: [    0.292310] usbcore: registered new device driver usb
+2022-12-14T19:42:31.754-05:00 roborio-1018-FRC kernel: [    0.292408] Linux video capture interface: v2.00
+2022-12-14T19:42:31.754-05:00 roborio-1018-FRC kernel: [    0.292444] pps_core: LinuxPPS API ver. 1 registered
+2022-12-14T19:42:31.754-05:00 roborio-1018-FRC kernel: [    0.292450] pps_core: Software ver. 5.3.6 - Copyright 2005-2007 Rodolfo Giometti <giometti@linux.it>
+2022-12-14T19:42:31.754-05:00 roborio-1018-FRC kernel: [    0.292469] PTP clock support registered
+2022-12-14T19:42:31.754-05:00 roborio-1018-FRC kernel: [    0.293669] clocksource: Switched to clocksource arm_global_timer
+2022-12-14T19:42:31.754-05:00 roborio-1018-FRC kernel: [    0.392898] NET: Registered protocol family 2
+2022-12-14T19:42:31.754-05:00 roborio-1018-FRC kernel: [    0.393661] TCP established hash table entries: 4096 (order: 2, 16384 bytes)
+2022-12-14T19:42:31.754-05:00 roborio-1018-FRC kernel: [    0.393776] TCP bind hash table entries: 4096 (order: 4, 114688 bytes)
+2022-12-14T19:42:31.754-05:00 roborio-1018-FRC kernel: [    0.394012] TCP: Hash tables configured (established 4096 bind 4096)
+2022-12-14T19:42:31.754-05:00 roborio-1018-FRC kernel: [    0.394148] UDP hash table entries: 256 (order: 2, 16384 bytes)
+2022-12-14T19:42:31.754-05:00 roborio-1018-FRC kernel: [    0.394194] UDP-Lite hash table entries: 256 (order: 2, 16384 bytes)
+2022-12-14T19:42:31.754-05:00 roborio-1018-FRC kernel: [    0.394494] NET: Registered protocol family 1
+2022-12-14T19:42:31.754-05:00 roborio-1018-FRC kernel: [    0.395455] hw perfevents: enabled with armv7_cortex_a9 PMU driver, 7 counters available
+2022-12-14T19:42:31.754-05:00 roborio-1018-FRC kernel: [    0.396540] audit: initializing netlink subsys (disabled)
+2022-12-14T19:42:31.754-05:00 roborio-1018-FRC kernel: [    0.396749] audit: type=2000 audit(0.389:1): state=initialized audit_enabled=0 res=1
+2022-12-14T19:42:31.754-05:00 roborio-1018-FRC kernel: [    0.397166] workingset: timestamp_bits=30 max_order=17 bucket_order=0
+2022-12-14T19:42:31.755-05:00 roborio-1018-FRC kernel: [    0.407858] io scheduler noop registered
+2022-12-14T19:42:31.755-05:00 roborio-1018-FRC kernel: [    0.407868] io scheduler deadline registered
+2022-12-14T19:42:31.755-05:00 roborio-1018-FRC kernel: [    0.408044] io scheduler cfq registered (default)
+2022-12-14T19:42:31.755-05:00 roborio-1018-FRC kernel: [    0.408053] io scheduler mq-deadline registered
+2022-12-14T19:42:31.755-05:00 roborio-1018-FRC kernel: [    0.408059] io scheduler kyber registered
+2022-12-14T19:42:31.755-05:00 roborio-1018-FRC kernel: [    0.410371] dma-pl330 f8003000.dmac: Loaded driver for PL330 DMAC-241330
+2022-12-14T19:42:31.755-05:00 roborio-1018-FRC kernel: [    0.410385] dma-pl330 f8003000.dmac: 	DBUFF-128x8bytes Num_Chans-8 Num_Peri-4 Num_Events-16
+2022-12-14T19:42:31.755-05:00 roborio-1018-FRC kernel: [    0.410912] Serial: 8250/16550 driver, 4 ports, IRQ sharing disabled
+2022-12-14T19:42:31.755-05:00 roborio-1018-FRC kernel: [    0.412502] 80000000.serial: ttyS0 at MMIO 0x80000000 (irq = 62, base_baud = 3676500) is a NI 16550 (with 128-byte FIFOs)
+2022-12-14T19:42:31.755-05:00 roborio-1018-FRC kernel: [    0.413079] 80000010.serial: ttyS1 at MMIO 0x80000010 (irq = 63, base_baud = 3676500) is a NI 16550 (with 128-byte FIFOs)
+2022-12-14T19:42:31.756-05:00 roborio-1018-FRC kernel: [    0.413592] e0000000.serial: ttyPS0 at MMIO 0xe0000000 (irq = 59, base_baud = 3125000) is a xuartps
+2022-12-14T19:42:31.756-05:00 roborio-1018-FRC kernel: [    0.423291] brd: module loaded
+2022-12-14T19:42:31.756-05:00 roborio-1018-FRC kernel: [    0.433202] loop: module loaded
+2022-12-14T19:42:31.756-05:00 roborio-1018-FRC kernel: [    0.433635] fpgaperipheral f8007000.fpgaperipheral: probe succeeded
+2022-12-14T19:42:31.756-05:00 roborio-1018-FRC kernel: [    0.438159] libphy: Fixed MDIO Bus: probed
+2022-12-14T19:42:31.757-05:00 roborio-1018-FRC kernel: [    0.439477] tun: Universal TUN/TAP device driver, 1.6
+2022-12-14T19:42:31.757-05:00 roborio-1018-FRC kernel: [    0.439667] CAN device driver interface
+2022-12-14T19:42:31.757-05:00 roborio-1018-FRC kernel: [    0.440112] libphy: MACB_mii_bus: probed
+2022-12-14T19:42:31.757-05:00 roborio-1018-FRC kernel: [    0.534648] SMSC LAN8710/LAN8720 e000b000.ethernet-ffffffff:00: attached PHY driver [SMSC LAN8710/LAN8720] (mii_bus:phy_addr=e000b000.ethernet-ffffffff:00, irq=64)
+2022-12-14T19:42:31.757-05:00 roborio-1018-FRC kernel: [    0.534691] macb e000b000.ethernet eth0: Cadence GEM rev 0x00020118 at 0xe000b000 irq 54 (00:80:2f:33:c7:93)
+2022-12-14T19:42:31.757-05:00 roborio-1018-FRC kernel: [    0.534946] ehci_hcd: USB 2.0 'Enhanced' Host Controller (EHCI) Driver
+2022-12-14T19:42:31.757-05:00 roborio-1018-FRC kernel: [    0.535266] i2c /dev entries driver
+2022-12-14T19:42:31.757-05:00 roborio-1018-FRC kernel: [    0.538334] nicpld 0-0040: cpld NI Zynq-based target CPLD found.
+2022-12-14T19:42:31.757-05:00 roborio-1018-FRC kernel: [    0.538393] cdns-i2c e0004000.i2c: 400 kHz mmio e0004000 irq 57
+2022-12-14T19:42:31.757-05:00 roborio-1018-FRC kernel: [    0.538922] cdns-i2c e0005000.i2c: 400 kHz mmio e0005000 irq 80
+2022-12-14T19:42:31.758-05:00 roborio-1018-FRC kernel: [    0.540132] sdhci: Secure Digital Host Controller Interface driver
+2022-12-14T19:42:31.758-05:00 roborio-1018-FRC kernel: [    0.540138] sdhci: Copyright(c) Pierre Ossman
+2022-12-14T19:42:31.758-05:00 roborio-1018-FRC kernel: [    0.540142] sdhci-pltfm: SDHCI platform and OF driver helper
+2022-12-14T19:42:31.758-05:00 roborio-1018-FRC kernel: [    0.593751] mmc0: SDHCI controller on e0101000.sdhci [e0101000.sdhci] using ADMA
+2022-12-14T19:42:31.758-05:00 roborio-1018-FRC kernel: [    0.594508] hidraw: raw HID events driver (C) Jiri Kosina
+2022-12-14T19:42:31.758-05:00 roborio-1018-FRC kernel: [    0.598274] NET: Registered protocol family 17
+2022-12-14T19:42:31.758-05:00 roborio-1018-FRC kernel: [    0.598302] can: controller area network core (rev 20170425 abi 9)
+2022-12-14T19:42:31.758-05:00 roborio-1018-FRC kernel: [    0.598422] NET: Registered protocol family 29
+2022-12-14T19:42:31.758-05:00 roborio-1018-FRC kernel: [    0.598432] can: raw protocol (rev 20170425)
+2022-12-14T19:42:31.759-05:00 roborio-1018-FRC kernel: [    0.598438] can: broadcast manager protocol (rev 20170425 t)
+2022-12-14T19:42:31.759-05:00 roborio-1018-FRC kernel: [    0.598454] can: netlink gateway (rev 20170425) max_hops=1
+2022-12-14T19:42:31.759-05:00 roborio-1018-FRC kernel: [    0.598959] Registering SWP/SWPB emulation handler
+2022-12-14T19:42:31.759-05:00 roborio-1018-FRC kernel: [    0.612662] hctosys: unable to open rtc device (rtc0)
+2022-12-14T19:42:31.759-05:00 roborio-1018-FRC kernel: [    0.613124] Waiting 1 sec before mounting root device...
+2022-12-14T19:42:31.759-05:00 roborio-1018-FRC kernel: [    0.647425] mmc0: new high speed SDHC card at address aaaa
+2022-12-14T19:42:31.759-05:00 roborio-1018-FRC kernel: [    0.647867] mmcblk0: mmc0:aaaa SA08G 7.40 GiB 
+2022-12-14T19:42:31.759-05:00 roborio-1018-FRC kernel: [    0.649268]  mmcblk0: p1 p2 p3
+2022-12-14T19:42:31.759-05:00 roborio-1018-FRC kernel: [    1.897669] EXT4-fs (mmcblk0p3): recovery complete
+2022-12-14T19:42:31.759-05:00 roborio-1018-FRC kernel: [    1.898719] EXT4-fs (mmcblk0p3): mounted filesystem with ordered data mode. Opts: (null)
+2022-12-14T19:42:31.759-05:00 roborio-1018-FRC kernel: [    1.898784] VFS: Mounted root (ext4 filesystem) on device 179:3.
+2022-12-14T19:42:31.759-05:00 roborio-1018-FRC kernel: [    1.898910] devtmpfs: mounted
+2022-12-14T19:42:31.759-05:00 roborio-1018-FRC kernel: [    1.902222] Freeing unused kernel memory: 1024K
+2022-12-14T19:42:31.759-05:00 roborio-1018-FRC kernel: [    2.596529] EXT4-fs (mmcblk0p1): recovery complete
+2022-12-14T19:42:31.759-05:00 roborio-1018-FRC kernel: [    2.597558] EXT4-fs (mmcblk0p1): mounted filesystem with ordered data mode. Opts: (null)
+2022-12-14T19:42:31.759-05:00 roborio-1018-FRC kernel: [    2.633354] EXT4-fs (mmcblk0p2): recovery complete
+2022-12-14T19:42:31.759-05:00 roborio-1018-FRC kernel: [    2.634866] EXT4-fs (mmcblk0p2): mounted filesystem with ordered data mode. Opts: (null)
+2022-12-14T19:42:31.759-05:00 roborio-1018-FRC [    3.958033] udevd[192]: starting version 3.2.5
+2022-12-14T19:42:31.759-05:00 roborio-1018-FRC [    4.058452] udevd[193]: starting eudev-3.2.5
+2022-12-14T19:42:31.760-05:00 roborio-1018-FRC kernel: [    4.286584] ci_hdrc ci_hdrc.0: EHCI Host Controller
+2022-12-14T19:42:31.760-05:00 roborio-1018-FRC kernel: [    4.286633] ci_hdrc ci_hdrc.0: new USB bus registered, assigned bus number 1
+2022-12-14T19:42:31.760-05:00 roborio-1018-FRC kernel: [    4.313824] ci_hdrc ci_hdrc.0: USB 2.0 started, EHCI 1.00
+2022-12-14T19:42:31.760-05:00 roborio-1018-FRC kernel: [    4.325883] hub 1-0:1.0: USB hub found
+2022-12-14T19:42:31.760-05:00 roborio-1018-FRC kernel: [    4.325971] hub 1-0:1.0: 1 port detected
+2022-12-14T19:42:31.760-05:00 roborio-1018-FRC kernel: [    4.693816] usb 1-1: new high-speed USB device number 2 using ci_hdrc
+2022-12-14T19:42:31.760-05:00 roborio-1018-FRC kernel: [    4.895385] hub 1-1:1.0: USB hub found
+2022-12-14T19:42:31.760-05:00 roborio-1018-FRC kernel: [    4.895581] hub 1-1:1.0: 2 ports detected
+2022-12-14T19:42:31.760-05:00 roborio-1018-FRC kernel: [    9.148722] using self ethernet address: 00:80:2f:33:c7:93
+2022-12-14T19:42:31.760-05:00 roborio-1018-FRC kernel: [    9.149359] usb0: HOST MAC 02:55:12:59:60:15
+2022-12-14T19:42:31.760-05:00 roborio-1018-FRC kernel: [    9.149453] usb0: MAC 00:80:2f:33:c7:93
+2022-12-14T19:42:31.760-05:00 roborio-1018-FRC kernel: [    9.149481] g_ether gadget: Ethernet Gadget, version: Memorial Day 2008
+2022-12-14T19:42:31.761-05:00 roborio-1018-FRC kernel: [    9.149488] g_ether gadget: g_ether ready
+2022-12-14T19:42:31.761-05:00 roborio-1018-FRC kernel: [   11.445177] macb e000b000.ethernet eth0: polling mode is disabled, using interrupts
+2022-12-14T19:42:31.761-05:00 roborio-1018-FRC kernel: [   11.445770] macb e000b000.ethernet eth0: link up (100/Full)
+2022-12-14T19:42:31.761-05:00 roborio-1018-FRC kernel: [   12.756903] macb e000b000.ethernet eth0: polling mode is disabled, using interrupts
+2022-12-14T19:42:31.761-05:00 roborio-1018-FRC kernel: [   12.759271] macb e000b000.ethernet eth0: link up (100/Full)
+2022-12-14T19:42:31.761-05:00 roborio-1018-FRC kernel: [   14.230868] NET: Registered protocol family 10
+2022-12-14T19:42:31.761-05:00 roborio-1018-FRC kernel: [   14.232731] IPv6: ADDRCONF(NETDEV_UP): usb0: link is not ready
+2022-12-14T19:42:31.761-05:00 roborio-1018-FRC kernel: [   14.234339] Segment Routing with IPv6
+2022-12-14T19:42:31.000-05:00 roborio-1018-FRC lldpd[1151]: created chroot directory /var/run/lldpd
+2022-12-14T19:42:31.000-05:00 roborio-1018-FRC lldpd[1151]: /etc/localtime copied to chroot
+2022-12-14T19:42:31.000-05:00 roborio-1018-FRC lldpd[1151]: protocol LLDP enabled
+2022-12-14T19:42:31.000-05:00 roborio-1018-FRC lldpd[1151]: protocol CDPv1 disabled
+2022-12-14T19:42:31.000-05:00 roborio-1018-FRC lldpd[1151]: protocol CDPv2 disabled
+2022-12-14T19:42:31.000-05:00 roborio-1018-FRC lldpd[1151]: protocol SONMP disabled
+2022-12-14T19:42:31.000-05:00 roborio-1018-FRC lldpd[1151]: protocol EDP disabled
+2022-12-14T19:42:31.000-05:00 roborio-1018-FRC lldpd[1151]: protocol FDP disabled
+2022-12-14T19:42:31.000-05:00 roborio-1018-FRC lldpd[1151]: libevent 2.1.8-stable initialized with epoll method
+2022-12-14T19:42:31.000-05:00 roborio-1018-FRC lldpd[1148]: unable to get system name
+2022-12-14T19:42:31.000-05:00 roborio-1018-FRC lldpd[1148]: unable to get system name
+2022-12-14T19:42:31.000-05:00 roborio-1018-FRC lldpcli[1149]: lldpd should resume operations
+2022-12-14T19:42:32.000-05:00 roborio-1018-FRC avahi-daemon[1194]: Found user 'avahi' (UID 348) and group 'avahi' (GID 348).
+2022-12-14T19:42:32.000-05:00 roborio-1018-FRC avahi-daemon[1194]: Successfully dropped root privileges.
+2022-12-14T19:42:32.000-05:00 roborio-1018-FRC avahi-daemon[1194]: avahi-daemon 0.7 starting up.
+2022-12-14T19:42:32.000-05:00 roborio-1018-FRC avahi-daemon[1194]: Successfully called chroot().
+2022-12-14T19:42:32.000-05:00 roborio-1018-FRC avahi-daemon[1194]: Successfully dropped remaining capabilities.
+2022-12-14T19:42:32.000-05:00 roborio-1018-FRC avahi-daemon[1194]: Loading service file /services/sftp-ssh.service.
+2022-12-14T19:42:32.000-05:00 roborio-1018-FRC avahi-daemon[1194]: Loading service file /services/ssh.service.
+2022-12-14T19:42:32.000-05:00 roborio-1018-FRC avahi-daemon[1194]: Joining mDNS multicast group on interface eth0.IPv6 with address fe80::280:2fff:fe33:c793.
+2022-12-14T19:42:32.000-05:00 roborio-1018-FRC avahi-daemon[1194]: New relevant interface eth0.IPv6 for mDNS.
+2022-12-14T19:42:32.000-05:00 roborio-1018-FRC avahi-daemon[1194]: Network interface enumeration completed.
+2022-12-14T19:42:32.000-05:00 roborio-1018-FRC avahi-daemon[1194]: Registering new address record for fe80::280:2fff:fe33:c793 on eth0.*.
+2022-12-14T19:42:32.000-05:00 roborio-1018-FRC NI WSD Watchdog[1205]: starting child server
+2022-12-14T19:42:33.000-05:00 roborio-1018-FRC avahi-daemon[1194]: Server startup complete. Host name is roborio-1018-FRC.local. Local service cookie is 1763811153.
+2022-12-14T19:42:33.000-05:00 roborio-1018-FRC NI WSD Watchdog[1205]: child server started successfully
+2022-12-14T19:42:33.000-05:00 roborio-1018-FRC /usr/local/natinst/bin/nirtmdnsd[1229]: starting
+2022-12-14T19:42:33.000-05:00 roborio-1018-FRC avahi-daemon[1194]: Service "roborio-1018-FRC" (/services/ssh.service) successfully established.
+2022-12-14T19:42:33.000-05:00 roborio-1018-FRC avahi-daemon[1194]: Service "roborio-1018-FRC" (/services/sftp-ssh.service) successfully established.
+2022-12-14T19:42:41.000-05:00 roborio-1018-FRC ifplugd(eth0): exit code: 0
+2022-12-14T19:43:03.000-05:00 roborio-1018-FRC avahi-daemon[1194]: Joining mDNS multicast group on interface eth0.IPv4 with address 10.10.18.2.
+2022-12-14T19:43:03.000-05:00 roborio-1018-FRC avahi-daemon[1194]: New relevant interface eth0.IPv4 for mDNS.
+2022-12-14T19:43:03.000-05:00 roborio-1018-FRC avahi-daemon[1194]: Registering new address record for 10.10.18.2 on eth0.IPv4.
+2023-03-09T20:50:15.000-05:00 roborio-1018-FRC ifplugd(usb0): link is up
+2023-03-09T20:50:15.000-05:00 roborio-1018-FRC ifplugd(usb0): executing '/etc/ifplugd/ifplugd.action usb0 up'
+2023-03-09T20:50:15.194-05:00 roborio-1018-FRC kernel: [  493.627631] g_ether gadget: high-speed config #1: CDC Ethernet (EEM)
+2023-03-09T20:50:15.194-05:00 roborio-1018-FRC kernel: [  493.627846] IPv6: ADDRCONF(NETDEV_CHANGE): usb0: link becomes ready
+2023-03-09T20:50:16.000-05:00 roborio-1018-FRC avahi-daemon[1194]: Joining mDNS multicast group on interface usb0.IPv6 with address fe80::280:2fff:fe33:c793.
+2023-03-09T20:50:16.000-05:00 roborio-1018-FRC avahi-daemon[1194]: New relevant interface usb0.IPv6 for mDNS.
+2023-03-09T20:50:16.000-05:00 roborio-1018-FRC avahi-daemon[1194]: Registering new address record for fe80::280:2fff:fe33:c793 on usb0.*.
+2023-03-09T20:50:18.000-05:00 roborio-1018-FRC avahi-daemon[1194]: Joining mDNS multicast group on interface usb0.IPv4 with address 172.22.11.2.
+2023-03-09T20:50:18.000-05:00 roborio-1018-FRC avahi-daemon[1194]: New relevant interface usb0.IPv4 for mDNS.
+2023-03-09T20:50:18.000-05:00 roborio-1018-FRC avahi-daemon[1194]: Registering new address record for 172.22.11.2 on usb0.IPv4.
+2023-03-09T20:50:18.000-05:00 roborio-1018-FRC ifplugd(usb0): exit code: 0

@@ -1,0 +1,31 @@
+Wed Dec 31 19:00:08 1969: hwclock: Cannot access the Hardware Clock via any known method.
+Wed Dec 31 19:00:08 1969: hwclock: Use the --verbose option to see the details of our search for an access method.
+Wed Dec 14 19:42:26 2022: Thu Dec 15 00:42:26 UTC 2022
+Wed Dec 14 19:42:26 2022: hwclock: Cannot access the Hardware Clock via any known method.
+Wed Dec 14 19:42:26 2022: hwclock: Use the --verbose option to see the details of our search for an access method.
+Wed Dec 14 19:42:27 2022: Next boot mode is runtime
+Wed Dec 14 19:42:28 2022: vm.overcommit_ratio = 93
+Wed Dec 14 19:42:28 2022: Starting rtctld: done
+Wed Dec 14 19:42:28 2022: INIT: Entering runlevel: 5
+Wed Dec 14 19:42:29 2022: Starting system message bus: dbus.
+Wed Dec 14 19:42:30 2022: Starting NIAuth: done
+Wed Dec 14 19:42:31 2022: Starting OpenBSD Secure Shell server: sshd
+Wed Dec 14 19:42:31 2022: /etc/ssh/sshd_config line 93: Deprecated option UsePrivilegeSeparation
+Wed Dec 14 19:42:31 2022: done.
+Wed Dec 14 19:42:32 2022: Starting NI Service Locator: /etc/rc5.d/S20nisvcloc: line 19: /dev/console: No such device
+Wed Dec 14 19:42:32 2022: Starting nirioserver: done
+Wed Dec 14 19:42:32 2022:  * Starting Avahi mDNS/DNS-SD Daemon: avahi-daemon
+Wed Dec 14 19:42:32 2022:    ...done.
+Wed Dec 14 19:42:32 2022: Starting systemWebServer: done
+Wed Dec 14 19:42:33 2022: Starting random number generator daemonUnable to open file: /dev/tpm0
+Wed Dec 14 19:42:33 2022: can't open any entropy source
+Wed Dec 14 19:42:33 2022: Maybe RNG device modules are not loaded
+Wed Dec 14 19:42:33 2022: 
+Wed Dec 14 19:42:33 2022: .
+Wed Dec 14 19:42:35 2022:  * opkg_prepare_url_for_install: Couldn't find anything to satisfy '/home/lvuser/frc_install/*.ipk'.
+Wed Dec 14 19:42:35 2022: rm: can't remove '/home/lvuser/frc_install/*.ipk': No such file or directory
+Wed Dec 14 19:42:35 2022: * starting FTP Server: vsftpd... done.
+Wed Dec 14 19:42:35 2022: Starting crond: OK
+Wed Dec 14 19:42:36 2022: Creating PID file "/var/run/runlvrt.pid".
+Wed Dec 14 19:42:36 2022: Overwriting /dev/console
+Wed Dec 14 19:42:36 2022: Can't open "/dev/console" for stdout: No such device
