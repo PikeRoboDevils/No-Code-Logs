@@ -7,6 +7,10 @@ Operating System	NI Linux Real-Time ARMv7-A 4.14.146-rt67
 Image Title	roboRIO2 Image
 Image Version	FRC_roboRIO2_2023_v3.1
 
+The code running on the robot during the 03/09/2023 instance is here:
+
+https://github.com/PikeRoboDevils/FRC-2023-Software/tree/v1.0-INMIS
+
 ## INMIS-Practice-Match
 
 This folder contains the DS log files from our first known occurence of this issue. The DS laptop successfully connected to the field and robot, yet code would not start. At approximately 10:12:16 
